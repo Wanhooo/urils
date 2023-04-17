@@ -1,0 +1,43 @@
+{
+  "mode": "debug",
+  "port": 8000,
+  "log": {
+    "level": "debug",
+    "filename": "logs/urils.log",
+    "maxsize": 300,
+    "max_age": 7,
+    "max_backups": 10
+  },
+  "database": {
+    "driver": "mysql",
+    "host": "127.0.0.1",
+    "port": "33060",
+    "database": "urils",
+    "username": "urils_user",
+    "password": "urils",
+    "charset": "utf8mb4",
+    "maximum_connection": 10,
+    "maximum_free_connection": 50,
+    "timeout": -1
+  },
+  "redis": {
+    "default": {
+      "host": "127.0.0.1",
+      "port": "6379",
+      "database": 0,
+      "password": "123456",
+      "max_connection": 10,
+      "max_free_connection": 50,
+      "timeout": 0
+    },
+    "sms": {
+      "host": "127.0.0.1",
+      "port": "6379",
+      "database": 1,
+      "password": "123456",
+      "max_connection": 10,
+      "max_free_connection": 50,
+      "timeout": 0
+    }
+  }
+}

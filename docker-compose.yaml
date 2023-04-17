@@ -1,0 +1,41 @@
+version: "3.7"
+services:
+  mysql:
+    image: mysql:8.0.26
+    restart: always
+    container_name: mysql
+    networks:
+      - db
+    environment:
+      - "MYSQL_ROOT_PASSWORD=admin123"
+      - "TZ=Asia/Shanghai"
+    command:
+      --default-authentication-plugin=mysql_native_password
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_general_ci
+      --explicit_defaults_for_timestamp=true
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./docker/mysql/conf:/etc/mysql/conf.d/
+      - ./docker/mysql/data:/var/lib/mysql/
+      - ./docker/mysql/logs:/var/log/mysql/
+      - ./docker/mysql/initdb:/docker-entrypoint-initdb.d/
+  redis:
+    image: redis:5.0.14-alpine
+    restart: always
+    container_name: redis
+    networks:
+      - db
+    command: redis-server /etc/redis/redis.conf
+    sysctls:
+      - net.core.somaxconn=2048
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./docker/redis/conf:/etc/redis
+      - ./docker/redis/data:/data
+      - ./docker/redis/logs:/logs
+
+networks:
+  db:
