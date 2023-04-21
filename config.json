@@ -11,7 +11,7 @@
   "database": {
     "driver": "mysql",
     "host": "127.0.0.1",
-    "port": "33060",
+    "port": "3307",
     "database": "urils",
     "username": "urils_user",
     "password": "urils",

@@ -1,24 +1,35 @@
-{"level":"DEBUG","time":"2021-11-21T19:28:24.010+0800","caller":"application/main.go:33","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-21T19:28:24.022+0800","caller":"application/main.go:37","msg":"服务端启动...端口：8000"}
-{"level":"DEBUG","time":"2021-11-21T19:29:04.882+0800","caller":"application/main.go:33","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-21T19:29:04.891+0800","caller":"application/main.go:37","msg":"服务端启动...端口：8000"}
-{"level":"DEBUG","time":"2021-11-21T19:34:20.306+0800","caller":"application/main.go:33","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-21T19:34:20.315+0800","caller":"application/main.go:37","msg":"服务端启动...端口：8000"}
-{"level":"INFO","time":"2021-11-21T19:34:29.411+0800","caller":"middleware/logger.go:19","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"INFO","time":"2021-11-21T19:36:19.694+0800","caller":"middleware/logger.go:19","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"INFO","time":"2021-11-21T19:36:19.838+0800","caller":"middleware/logger.go:19","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"INFO","time":"2021-11-21T19:36:19.993+0800","caller":"middleware/logger.go:19","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"INFO","time":"2021-11-21T19:36:20.163+0800","caller":"middleware/logger.go:19","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"DEBUG","time":"2021-11-21T19:38:35.358+0800","caller":"application/main.go:33","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-21T19:38:35.366+0800","caller":"application/main.go:37","msg":"服务端启动...端口：8000"}
-{"level":"INFO","time":"2021-11-21T19:38:37.822+0800","caller":"middleware/logger.go:26","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"INFO","time":"2021-11-21T19:38:37.969+0800","caller":"middleware/logger.go:26","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"INFO","time":"2021-11-21T19:38:38.105+0800","caller":"middleware/logger.go:26","msg":"/api/user/authenticate{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/user/authenticate <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}"}
-{"level":"DEBUG","time":"2021-11-28T09:36:20.805+0800","caller":"application/main.go:33","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-28T09:36:20.821+0800","caller":"application/main.go:37","msg":"服务端启动...端口：8000"}
-{"level":"DEBUG","time":"2021-11-28T10:11:30.746+0800","caller":"application/main.go:33","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-28T10:11:30.758+0800","caller":"application/main.go:37","msg":"服务端启动...端口：8000"}
-{"level":"DEBUG","time":"2021-11-28T10:17:29.764+0800","caller":"application/main.go:33","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-28T10:17:29.771+0800","caller":"application/main.go:37","msg":"服务端启动...端口：8000"}
-{"level":"DEBUG","time":"2021-11-28T10:54:45.375+0800","caller":"application/main.go:34","msg":"调试信息:8000"}
-{"level":"INFO","time":"2021-11-28T10:54:45.384+0800","caller":"application/main.go:38","msg":"服务端启动...端口：8000"}
+{"level":"DEBUG","time":"2023-04-21T10:52:47.510+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T10:52:47.526+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T10:52:47.528+0800","caller":"database/mysql.go:25","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T10:54:07.508+0800","caller":"urils/main.go:38","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T10:54:07.525+0800","caller":"urils/main.go:42","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T10:54:07.525+0800","caller":"database/mysql.go:25","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T10:54:41.873+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T10:54:41.888+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T10:54:41.890+0800","caller":"database/mysql.go:25","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T10:55:08.752+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T10:55:08.768+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T10:55:08.769+0800","caller":"database/mysql.go:25","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T11:00:53.133+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T11:00:53.148+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T11:00:53.148+0800","caller":"database/mysql.go:26","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T11:09:14.381+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T11:09:14.404+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T11:09:14.410+0800","caller":"database/mysql.go:26","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T11:10:39.943+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T11:10:39.960+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T11:10:39.967+0800","caller":"database/mysql.go:27","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T11:11:15.326+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T11:11:15.346+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"ERROR","time":"2023-04-21T11:11:15.346+0800","caller":"database/mysql.go:25","msg":"dsssssssssssssssssssssssssssssail: MySQL server does not support required protocol 41+"}
+{"level":"ERROR","time":"2023-04-21T11:11:15.346+0800","caller":"database/mysql.go:27","msg":"database connection fail: MySQL server does not support required protocol 41+"}
+{"level":"DEBUG","time":"2023-04-21T11:15:14.123+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T11:15:14.138+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"DEBUG","time":"2023-04-21T11:21:02.647+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T11:21:02.665+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"DEBUG","time":"2023-04-21T13:04:49.217+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T13:04:49.240+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"DEBUG","time":"2023-04-21T13:05:11.883+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T13:05:11.900+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
+{"level":"DEBUG","time":"2023-04-21T13:13:58.979+0800","caller":"urils/main.go:37","msg":"调试信息:8000"}
+{"level":"INFO","time":"2023-04-21T13:13:58.997+0800","caller":"urils/main.go:41","msg":"服务端启动...端口：8000"}
