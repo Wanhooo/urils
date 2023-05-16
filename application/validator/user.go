@@ -7,10 +7,9 @@ import (
 	. "urils/application/utils"
 )
 
-
 /**
- 登陆验证器
- */
+登陆验证器
+*/
 
 func LoginValidator(user *User) error {
 	validate, trans := GenValidate()

@@ -1,6 +1,7 @@
 {
   "mode": "debug",
   "port": 8000,
+  "secret_key": "Ub=~sV,U1QXmvHObh_My6#6-O9>}zK{8",
   "log": {
     "level": "debug",
     "filename": "logs/urils.log",
@@ -39,5 +40,8 @@
       "max_free_connection": 50,
       "timeout": 0
     }
+  },
+  "jwt": {
+    "exp": 1800
   }
 }

@@ -1,6 +1,8 @@
 package utils
 
 import (
+	"fmt"
+	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
 	"math/rand"
 	"time"
@@ -20,7 +22,6 @@ func Random(n int, chars string) string {
 	return string(bytes)
 }
 
-
 /**
 生成指定长度的字符串(字母)
 */
@@ -28,7 +29,6 @@ func Random(n int, chars string) string {
 func RandomLetters(n int) string {
 	return Random(n, LETTERS)
 }
-
 
 /**
 生成指定长度的字符串(数字)
@@ -38,7 +38,6 @@ func RandomNumeric(n int) string {
 	return Random(n, NUMBERS)
 }
 
-
 /**
 生成指定长度的字符串(数字+字母)
 */
@@ -47,7 +46,6 @@ func RandomLettersNumeric(n int) string {
 	return Random(n, LETTERS_NUMBERIC)
 }
 
-
 /**
 生成指定长度的字符串(字母+数字+特殊字符)
 */
@@ -55,7 +53,6 @@ func RandomLettersNumeric(n int) string {
 func RandomAscii(n int) string {
 	return Random(n, ASCII)
 }
-
 
 /*
  加密密码
@@ -72,7 +69,7 @@ func MakeHashPassword(RawPassword string) (HashPasswrd string, err error) {
 }
 
 /**
- 验证密码
+验证密码
 */
 
 func CheckPassword(HashPassword string, RawPassword string) bool {
@@ -83,4 +80,12 @@ func CheckPassword(HashPassword string, RawPassword string) bool {
 		return false
 	}
 	return true
+}
+
+/**
+生成UUID4
+*/
+
+func uuid4() string {
+	return fmt.Sprintf("%s", uuid.NewV4())
 }
